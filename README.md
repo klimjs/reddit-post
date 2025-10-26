@@ -1,6 +1,6 @@
 # Reddit Post App
 
-POC with the main functionality of allowing users to post on Reddit into a specific community.
+POC covering the main functionality of allowing users to post on Reddit into a specific community.
 
 ## Tech stack
 
