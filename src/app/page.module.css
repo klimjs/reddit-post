@@ -60,7 +60,7 @@
   color: var(--text-primary);
 }
 
-.ctas {
+.footer {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -69,7 +69,7 @@
   font-size: 14px;
 }
 
-.ctas a {
+.footer a {
   display: flex;
   justify-content: center;
   align-items: center;

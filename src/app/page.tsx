@@ -9,7 +9,7 @@ export default function Home() {
           <h1>To get started, edit the page.tsx file.</h1>
           <p>Looking for a starting point or more instructions?</p>
         </div>
-        <div className={styles.ctas}>Footer</div>
+        <div className={styles.footer}>Footer</div>
       </main>
     </div>
   )
