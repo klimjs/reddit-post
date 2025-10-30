@@ -6,10 +6,10 @@ POC covering the main functionality of allowing users to post on Reddit into a s
 
 The goal is to align the stack with the one [Buffer](https://buffer.com) has as an idea came up exploring [Buffer suggestions board](https://suggestions.buffer.com).
 
-[TanStack Start](https://tanstack.com/start/latest) is used as a full stack react framework because of 2 reasons:
+Next.js is used as a full stack react framework because of 2 reasons:
 
-- client-side first (one `graphql` endpoint is needed only on the backend)
-- exploring some new fancy stuff just for fun
+- well-maintained apollo server package [apollo-server-integration-next](https://github.com/apollo-server-integrations/apollo-server-integration-next)
+- having a single Vercel deployment without any additional complexity
 
 ### Frontend
 
