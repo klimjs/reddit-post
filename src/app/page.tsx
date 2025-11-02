@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <div>react • apollo graphql • mongodb • radix ui • css modules</div>
+        <div>react • apollo graphql • mongodb • radix ui</div>
         <div className={styles.intro}>
           <h1>Reddit Post App</h1>
           <p>
