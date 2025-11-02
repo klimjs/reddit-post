@@ -30,7 +30,14 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ThemeProvider attribute="class">
-          <Theme>{children}</Theme>
+          <Theme
+            accentColor="mint"
+            grayColor="gray"
+            scaling="100%"
+            radius="full"
+          >
+            {children}
+          </Theme>
         </ThemeProvider>
       </body>
     </html>
