@@ -1,10 +1,20 @@
 import styles from './page.module.css'
+import { Callout } from '@radix-ui/themes'
+import { StackIcon } from '@radix-ui/react-icons'
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <div>react • apollo graphql • mongodb • radix ui</div>
+        <Callout.Root>
+          <Callout.Icon>
+            <StackIcon />
+          </Callout.Icon>
+          <Callout.Text>
+            react • apollo graphql • mongodb • radix ui
+          </Callout.Text>
+        </Callout.Root>
+
         <div className={styles.intro}>
           <h1>Reddit Post App</h1>
           <p>
