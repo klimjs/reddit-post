@@ -1,6 +1,7 @@
 import styles from './page.module.css'
 import { Callout } from '@radix-ui/themes'
 import { StackIcon } from '@radix-ui/react-icons'
+import { GraphqlTest } from '@/components/graphql-test'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
             POC covering the main functionality of allowing users to post on
             Reddit into a specific community.
           </p>
+          <GraphqlTest />
         </div>
         <div className={styles.footer}>
           <a
