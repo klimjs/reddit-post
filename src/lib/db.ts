@@ -2,7 +2,9 @@ import 'server-only'
 
 import { MongoClient, ServerApiVersion } from 'mongodb'
 
-export const dbClient = new MongoClient(process.env.MONGO_DB_URI as string, {
+const uri = process.env.MONGO_DB_URI || ''
+
+export const dbClient = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
